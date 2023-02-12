@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>other section</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <h1 class="text-5xl  font-semibold text-center ">Let's get some  <span class="font-bold text-fuchsia-700">Moooooney !!!!</span></h1>
+
+<main>
+    
+        <div class="grid grid-cols-3 gap-3 w-6/12 mx-auto mt-12 text-white ">
+            <div class="bg-amber-400 p-5 rounded-md">
+                <h3 class="text-xl  "> Diposit</h3>
+                <h2 class="text-4xl">$<span id="dipo-amount">00</span> </h2>
+            </div>
+            
+            <div class="bg-emerald-400 p-5 rounded-md">
+                <h3 class="text-xl  "> widthdraw</h3>
+                <h2 class="text-4xl">$<span id="widthdraw-amount">00</span> </h2>
+            </div>
+            
+            <div class="bg-cyan-400 p-5 rounded-md">
+                <h3 class="text-xl  "> Blance</h3>
+                <h2 class="text-4xl">$<span id="total-blance">1240</span> </h2>
+            </div>
+            
+        </div>
+        
+</main>
+
+<section>
+    
+    <div class="grid grid-cols-2 gap-3 w-6/12 mx-auto mt-12  ">
+        <div class="bg-stone-400 p-5 rounded-md ">
+            <h3 class="text-xl  py-2 text-white"> Please Diposit</h3>
+            <input id="diposit-feild" class=" block m-1 w-9/12 px-1.5 " placeholder="$ input Diposit Amount" type="text">
+           
+            <button id="dipo-btn" class="block bg-orange-600 mt-2 px-8 py-1 text-white font-medium rounded-md ">Diposit</button>
+            
+        </div>
+        
+        <div class="bg-pink-400 p-5 rounded-md">
+            <h3 class="text-xl py-2 text-white"> Please widthdraw</h3>
+            <input id="Widthdraw-feild" class=" block m-1 w-9/12 px-1.5 " placeholder="$ input widthdraw Amount" type="text">
+           
+            <button id="withdraw-btn" class="block bg-orange-600 mt-2 px-8 py-1 text-white font-medium rounded-md ">widthdraw</button>
+        </div>
+        
+       
+        
+    </div>
+</section>
+
+<script src="bank/doposit.js"></script>
+<script src="bank/withdraw.js"></script>
+
+</body>
+</html>
